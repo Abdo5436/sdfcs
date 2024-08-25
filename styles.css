@@ -1,0 +1,123 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* تصميم الرأس */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* تصميم قسم البطل */
+.hero {
+    background: #0056b3;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* تصميم قسم المنتجات */
+.products {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.products h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h4 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+}
+
+.discount {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* تصميم التذييل */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
